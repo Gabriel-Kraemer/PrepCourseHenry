@@ -77,7 +77,6 @@ function deleteAbc(string) {
    var strArr = string.split('').filter(l => l !== "a" && l !=="b" && l!=="c");
    string = strArr.join('');
    return string;
-
 }
 
 function sortArray(arrayOfStrings) {
